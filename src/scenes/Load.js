@@ -4,7 +4,8 @@ class Load extends Phaser.Scene{
     }
 
     create(){
-        var h = 1;
+        console.log("loadScene");
+        game.config.setBackgroundColor('#f4fdaf');
     }
 
     update(){

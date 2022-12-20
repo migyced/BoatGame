@@ -4,7 +4,8 @@ class Play extends Phaser.Scene{
     }
 
     create(){
-        var b = 2;
+        console.log("PlayScene");
+        game.config.setBackgroundColor('#ffb9b9');
     }
 
     update(){
