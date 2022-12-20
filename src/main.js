@@ -1,10 +1,8 @@
-const { Phaser } = require("../lib/phaser")
-
 let config = {
     type: Phaser.CANVAS,
-    width: window.innerWidth,
-    height: window.innerHeight,
-    background: '#000000',
+    width: 800 ,
+    height: 800,
+    backgroundColor: '#999999',
     scene: [Load, Play]
 }
 

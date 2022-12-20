@@ -4,10 +4,10 @@ class Play extends Phaser.Scene{
     }
 
     create(){
-
+        var b = 2;
     }
 
     update(){
-        
+
     }
 }
